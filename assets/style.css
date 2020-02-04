@@ -19,4 +19,31 @@ body{
 .fontContent{
     font-family: 'Playfair Display', serif;
     color: ivory;
+
+}
+
+.container-image{
+    position: relative;
+    text-align: center;
+}
+
+.bottom-centered{
+    position: absolute;
+    color: gainsboro;
+    bottom: 20px;
+    left: 0px;
+    background-color: slategray;
+    width: 100%;
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+}
+
+.img-hieght{
+    max-height: 500px;
+}
+
+.fontBackground{
+    background-color: rgba(112, 128, 144,.6);
+    border-radius: 10px;
+    padding:10px;
 }
