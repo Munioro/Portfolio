@@ -25,6 +25,7 @@ body{
 .container-image{
     position: relative;
     text-align: center;
+    margin-top: 30px;
 }
 
 .bottom-centered{
