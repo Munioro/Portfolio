@@ -107,6 +107,7 @@ function portfolio(){
     const prjLink = ["https://munioro.github.io/UTSA-BC-Homework/", "https://munioro.github.io/Portfolio/", "https://munioro.github.io/Password-Generator/", "https://munioro.github.io/Code-Quiz/", "https://munioro.github.io/Day-Planner/", "https://munioro.github.io/Weather-Dashboard/", "https://loneyb11.github.io/Class_Project_01/", "https://gentle-earth-21120.herokuapp.com/", "#"];
     const gitLink = ["https://github.com/Munioro/UTSA-BC-Homework", "https://github.com/Munioro/Portfolio", "https://github.com/Munioro/Password-Generator", "https://github.com/Munioro/Code-Quiz", "https://github.com/Munioro/Day-Planner", "https://github.com/Munioro/Weather-Dashboard", "https://github.com/loneyb11/Class_Project_01", "https://github.com/ericvasquez/improved-project2", "#"];
     const row = $('<div class="row align-items-start">');
+    let count = 0;
 
     header.text('Portfolio');
 
@@ -122,7 +123,6 @@ function portfolio(){
         let img = $(`<img src="${imgLink[i]}" class="img-fluid img-thumbnail" alt="${prjLink[i]}">`);
         let banner = $('<div class="bottom-centered">').text(projects[i] + " ");
         let gitAnchor = $(`<a href="${gitLink[i]}" target="_blank">`).text('Git Hub')
-        let count = 0;
 
         $(gitAnchor).appendTo(banner);
         $(img).appendTo(anchor);
@@ -144,7 +144,7 @@ function contact(){
     const container = $('<div class="container">');
     const row = $('<div class="row">');
     const col4 = $('<div class="col-4">');
-    const card = $('<div class="card" style="width: 25rem;">');
+    const card = $('<div class="card fontBackground" style="width: 25rem;">');
     const cardBody = $('<div class="card-body contactColor">');
     const header = $('<h3 class="card-title">Contact Info</h3>');
     const ul = $('<ul>');
