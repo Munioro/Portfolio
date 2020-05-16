@@ -84,7 +84,7 @@ function aboutMe(){
 
     $(fontContent).prepend(pageHeader);
     $(col7).append(fontContent);
-    $(col5).append(' <img src="./assets/images/OnaKayak.jpg" class="img-fluid img-thumbnail img-hieght" alt="Me on a Kayak">');
+    $(col5).append(' <img src="./public/assets/images/OnaKayak.jpg" class="img-fluid img-thumbnail img-hieght" alt="Me on a Kayak">');
     $(row).append(col5);
     $(row).append(col7);
     $(row).appendTo(container)
@@ -103,7 +103,7 @@ function portfolio(){
     const container = $('<div class="container">');
     const header = $('<h1 class="fontContent fontBackground text-center">');
     const projects = ['Code Refactor', 'Portfolio', 'Password Generated', 'Code Quiz', 'Daily Planner', 'Weather Dashboard', 'Bing Me Food', 'Virus Vices', 'Coming Soon'];
-    const imgLink = ["./assets/images/SEO.png", "./assets/images/Portfolio.png", "./assets/images/Password-Generator.png", "./assets/images/Code-Quiz.png", "./assets/images/Day-Planner.png", "./assets/images/Weather-Dashboard.png", "./assets/images/BingMeFood.png", "./assets/images/VirusVices.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRMf6ACFGtPPs2zybXwLZuRehV8azq8-WLYaU1Ply46Hm1G2U2T"];
+    const imgLink = ["./public/assets/images/SEO.png", "./public/assets/images/Portfolio.png", "./public/assets/images/Password-Generator.png", "./public/assets/images/Code-Quiz.png", "./public/assets/images/Day-Planner.png", "./public/assets/images/Weather-Dashboard.png", "./public/assets/images/BingMeFood.png", "./public/assets/images/VirusVices.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRMf6ACFGtPPs2zybXwLZuRehV8azq8-WLYaU1Ply46Hm1G2U2T"];
     const prjLink = ["https://munioro.github.io/UTSA-BC-Homework/", "https://munioro.github.io/Portfolio/", "https://munioro.github.io/Password-Generator/", "https://munioro.github.io/Code-Quiz/", "https://munioro.github.io/Day-Planner/", "https://munioro.github.io/Weather-Dashboard/", "https://loneyb11.github.io/Class_Project_01/", "https://gentle-earth-21120.herokuapp.com/", "#"];
     const gitLink = ["https://github.com/Munioro/UTSA-BC-Homework", "https://github.com/Munioro/Portfolio", "https://github.com/Munioro/Password-Generator", "https://github.com/Munioro/Code-Quiz", "https://github.com/Munioro/Day-Planner", "https://github.com/Munioro/Weather-Dashboard", "https://github.com/loneyb11/Class_Project_01", "https://github.com/ericvasquez/improved-project2", "#"];
     const row = $('<div class="row align-items-start">');
